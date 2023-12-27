@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database</title>
+</head>
+<body>
+    {% for item in values %}
+        <p>Id: {{item._id}}</p>
+        <p>Name: {{item.movieName}}  </p>
+        <p>Date: {{item.date}}</p>
+        <p>Zoner: {{item.zoner}}</p>
+        <hr>
+        <br>
+    {% endfor %}
+</body>
+</html>
