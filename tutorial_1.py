@@ -115,7 +115,7 @@ def deleteAllMovies():
 
     return redirect(url_for("view"))
 
-
+#we can do below task in other way also
 if __name__ == "__main__":
     
     app.run(debug=True)
